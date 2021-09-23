@@ -1,6 +1,9 @@
 /**
+ * Author  - Jim Tony
  * @param {number[]} nums
  * @return {void} Do not return anything, modify nums in-place instead.
+ * Time Complexity - O(N)
+ * Space Complexity - O(1)
  */
  var sortColors = function(nums) {
     let low = 0;

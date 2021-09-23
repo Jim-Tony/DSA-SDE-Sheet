@@ -1,6 +1,9 @@
 /**
+ * Author  - Jim Tony
  * @param {number[]} nums
  * @return number[]
+ * Time complexity - O(N)
+ * Space Complexity - O(N)
  */
 
 class Solution{
