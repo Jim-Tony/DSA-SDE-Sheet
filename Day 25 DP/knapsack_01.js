@@ -21,7 +21,7 @@ class Solution{
         }
         return dp[n][m];
     }
-};
+};  
 const obj1 = new Solution();
 const values = [1,2,3];
 const weights = [4,5,1];
