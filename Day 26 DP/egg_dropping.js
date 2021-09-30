@@ -28,6 +28,8 @@ class Solution
 
 //Another method O(KlogN)
 class Solution2{
+    // k->no of eggs
+    // n-> no of floors
     eggDrop(n,k){
         let dp = [...new Array(n+1)].map(_=>new Array(k+1).fill(0));
         let m = 0;
