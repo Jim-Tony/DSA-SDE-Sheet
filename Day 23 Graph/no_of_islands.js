@@ -1,4 +1,7 @@
 /**
+ * @Author Jim Tony
+ * @Time_Complexity O(M*N)
+ * @Space_Complexity O(2N) (The two 1D arrays)
  * @param {character[][]} grid
  * @return {number}
  */
