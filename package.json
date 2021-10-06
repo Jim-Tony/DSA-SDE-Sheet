@@ -1,0 +1,23 @@
+{
+  "name": "striver-sde-sheet",
+  "version": "1.0.0",
+  "description": "All problems in SDE sheet",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jim-Tony/DSA-SDE-Sheet.git"
+  },
+  "author": "Jim Tony",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Jim-Tony/DSA-SDE-Sheet/issues"
+  },
+  "homepage": "https://github.com/Jim-Tony/DSA-SDE-Sheet#readme",
+  "dependencies": {
+    "priority-queue-node": "^1.0.2",
+    "priorityqueue": "^1.0.0"
+  }
+}
