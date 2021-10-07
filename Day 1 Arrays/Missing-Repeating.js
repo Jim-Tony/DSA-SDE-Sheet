@@ -1,7 +1,7 @@
 /**
- * Author  - Jim Tony
+ * @Author Jim Tony
  * @param {number[]} nums
- * @return number[]
+ * @return {number[]}
  * Time complexity - O(N)
  * Space Complexity - O(N)
  */
