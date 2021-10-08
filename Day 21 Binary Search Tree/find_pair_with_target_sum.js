@@ -8,7 +8,7 @@
  * @Time_Complexity O(N) 
  * @Space_Complexity O(N+N) (For using a set and stack) 
  * @param {TreeNode} root
- * @param {number} k
+ * @param {number} target
  * @return {boolean}
  */
  var findTarget = function(root, target) {
@@ -34,7 +34,7 @@
  * @Time_Complexity O(N) 
  * @Space_Complexity O(1) 
  * @param {TreeNode} root
- * @param {number} k
+ * @param {number} target
  * @return {boolean}
  */
 
