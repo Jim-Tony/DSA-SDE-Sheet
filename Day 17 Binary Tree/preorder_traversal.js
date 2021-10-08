@@ -7,9 +7,9 @@
  * @param {TreeNode} root
  * @return {number[]}
  */
-var inorderTraversal = function(root) {
+var preorderTraversal = function(root) {
     if(!root) return [];
-    return [...inorderTraversal(root.left),root.val,...inorderTraversal(root.right)];
+    return [...preorderTraversal(root.left),root.val,...preorderTraversal(root.right)];
 };
 
 /**
@@ -17,15 +17,15 @@ var inorderTraversal = function(root) {
  * @param {TreeNode} root
  * @return {number[]}
  */
-var inorderTraversal = function(root) {
+ var preorderTraversal = function(root) {
     let ans = []
-    function inorder(root){
+    function preorder(root){
         if(!root) return;
-        inorder(root.left);
+        preorder(root.left);
         ans.push(root.val);
-        inorder(root.right);
+        preorder(root.right);
     }
-    inorder(root);
+    preorder(root);
     return ans;
 };
 
@@ -34,20 +34,19 @@ var inorderTraversal = function(root) {
  * @param {TreeNode} root
  * @return {number[]}
  */
-
-var inorderTraversal = function(root) {
+var preorderTraversal = function(root){
     if(root===null) return [];
     let st = [];
     let ans = [];
     let tmp = root;
     while(tmp || st.length){
         while(tmp){
+            ans.push(tmp.val);
             st.push(tmp);
             tmp = tmp.left;
         }
         tmp = st.pop();
-        ans.push(tmp.val);
         tmp = tmp.right;
     }
     return ans;
-};
+}; 
