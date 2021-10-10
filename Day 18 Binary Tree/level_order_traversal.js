@@ -10,7 +10,7 @@
 /**
  * @author Jim Tony
  * @Time_Complexity O(N) N--> Number of nodes traversed
- * @Space_Complexity O(N)
+ * @Space_Complexity O(2N)
  * @param {TreeNode} root
  * @return {number[][]}
  */
