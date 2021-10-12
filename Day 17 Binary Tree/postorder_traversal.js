@@ -9,7 +9,7 @@
  */
 var postorderTraversal = function(root) {
     if(!root) return [];
-    return [...postorderTraversal(root.left),root.val,...postorderTraversal(root.right)];
+    return [...postorderTraversal(root.left),...postorderTraversal(root.right),root.val];
 };
 
 /**
@@ -22,8 +22,8 @@ var postorderTraversal = function(root) {
     function postorder(root){
         if(!root) return;
         postorder(root.left);
-        ans.push(root.val);
         postorder(root.right);
+        ans.push(root.val);
     }
     postorder(root);
     return ans;
