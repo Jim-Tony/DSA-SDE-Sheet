@@ -9,7 +9,7 @@
  */
 var preorderTraversal = function(root) {
     if(!root) return [];
-    return [...preorderTraversal(root.left),root.val,...preorderTraversal(root.right)];
+    return [root.val,...preorderTraversal(root.left),...preorderTraversal(root.right)];
 };
 
 /**
@@ -21,8 +21,8 @@ var preorderTraversal = function(root) {
     let ans = []
     function preorder(root){
         if(!root) return;
-        preorder(root.left);
         ans.push(root.val);
+        preorder(root.left);
         preorder(root.right);
     }
     preorder(root);
