@@ -7,7 +7,7 @@
  */
 /**
  * @author Jim Tony
- * @Time_Complexity O(N) N-> Number of Nodes
+ * @Time_Complexity O(N+M)
  * @Space_Complexity O(1)
  * @param {ListNode} l1
  * @param {ListNode} l2
